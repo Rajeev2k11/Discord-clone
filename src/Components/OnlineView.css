@@ -1,0 +1,9 @@
+.OnlineList{
+    padding: 20px;
+    color: gray;
+}
+.Useronline{
+    display: flex;
+    align-items: center;
+    padding-top:10px;
+}

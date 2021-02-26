@@ -1,0 +1,22 @@
+.message {
+    display: flex;
+    padding: 10px;
+    color: white;
+  }
+  
+  .messageInfo {
+    margin-left: 20px;
+  }
+  .messageInfo > p{
+    margin-top: -10px;
+  }
+  
+  .timestamp {
+    color: gray;
+    margin-left: 20px;
+    font-size: x-small;
+  }
+  .avatar{
+      align-items: center;
+      margin-top: 25px;
+  }

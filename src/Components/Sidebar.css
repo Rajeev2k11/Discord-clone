@@ -1,0 +1,91 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    flex: 0.20;
+    background-color: #2f3135;
+    height: 100vh;
+
+}
+.topbar{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #2f3135;
+   color: white;
+   border-bottom: 3px solid #26282c;
+   padding-left: 20px;
+   padding-right: 20px;
+
+
+} 
+.Channels{
+    flex:1;
+}
+.channel_header{
+    color:grey;
+    display: flex;
+    align-items: center;
+    
+
+}
+.channel_list{
+   
+}
+.channel_header:hover{
+    color:white;
+    cursor: pointer;
+}
+.channels_sidebar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #2f3135;
+
+}
+.addbutton{
+    color:grey;
+    cursor: pointer;
+}
+.addbutton:hover{
+    color:white
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #202226;
+    
+
+}
+.profileInfo{
+    display: flex;
+    color:white;
+    padding-left: 15px;
+    flex: 1;
+    
+}
+.profileInfo >div {
+    
+}
+.Avatar{
+   margin-top: 20px;
+   margin-right: 10px;
+}
+.profileIcons{
+    color:gray;
+    padding-right: 10px;
+    
+}
+.miceIcon:hover{
+    background-color: #363940;
+    color:white;
+}
+.headsetIcon:hover{
+    background-color: #363940;
+    color:white;
+}
+.settingsIcon:hover{
+    background-color: #363940;
+    color:white;
+}

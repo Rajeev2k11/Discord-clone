@@ -1,0 +1,32 @@
+.channelSidebar:hover > h4 {
+    color: white;
+    background-color: #40464b;
+  }
+  .channelSidebar > h4 {
+    color: gray;
+    align-items: center;
+    display: flex;
+    padding-left: 15px;
+    background-color: #2f3135;
+    cursor: pointer;
+  }
+  .hash {
+    font-size: 30px;
+    padding: 8px;
+  }
+  .channelSidebar{
+    display: flex;
+    justify-content: space-between;
+    color:gray;
+    align-items: center;
+    /* padding-right: 0px; */
+  }
+  .channelSidebar:hover{
+    background-color: #40464b;
+  }
+  .personIcon:hover{
+    color:white
+  }
+  .settingIcon:hover{
+    color:white
+  }
